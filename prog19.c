@@ -7,7 +7,7 @@ int main()
     char c;
     printf("Enter a character :");
     scanf("%c", &c);
-    (c >= 'a' && c <= 'z') ? (printf("%c is a small case character", c)) : (printf("%c is not a small case character", c));
+    (c >= 'a' && c <= 'z') ? (printf("%c is a small case letter", c)) : (printf("%c is not a small case letter", c));
 
     return 0;
 }
